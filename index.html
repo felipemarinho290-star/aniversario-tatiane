@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Feliz Aniversário, Tatiane 🎂</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <h1>Feliz Aniversário, Tatiane 🎂</h1>
+  <nav>
+    <a href="#inicio">Início</a>
+    <a href="#mensagem">Mensagem</a>
+    <a href="#galeria">Fotos</a>
+    <a href="#surpresa">Surpresa</a>
+  </nav>
+</header>
+
+<section id="inicio" class="hero">
+  <img src="tatiane1.jpg" class="foto-principal">
+  <h2>Hoje é um dia muito especial!</h2>
+  <p>Celebrando a vida de uma pessoa incrível 💖</p>
+  <button onclick="scrollToSurpresa()">Ver Surpresa</button>
+</section>
+
+<section id="mensagem">
+  <h2>Mensagem 💌</h2>
+  <p>
+    Tatiane, hoje é o seu dia! Que sua vida seja cheia de alegria, saúde e sonhos realizados.
+    Você é uma pessoa incrível e merece tudo de melhor. Nunca deixe de sorrir!
+    Feliz aniversário! 🎉❤️
+  </p>
+</section>
+
+<section id="galeria">
+  <h2>Momentos especiais 📸</h2>
+  <div class="grid">
+    <img src="tatiane1.jpg">
+    <img src="tatiane2.jpg">
+    <img src="tatiane3.jpg">
+    <img src="tatiane4.jpg">
+  </div>
+</section>
+
+<section id="surpresa">
+  <h2>Surpresa 🎁</h2>
+  <button onclick="mostrarSurpresa()">Clique para ver sua surpresa</button>
+  <p id="mensagem-surpresa"></p>
+</section>
+
+<footer>
+  <p>Feito com amor para Tatiane ❤️ | <span id="ano"></span></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
